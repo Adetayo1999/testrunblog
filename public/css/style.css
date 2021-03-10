@@ -1,0 +1,39 @@
+.heading h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    font-family: 600;
+    
+}
+
+
+
+.blogcon{
+    width:80%;
+    margin:15px auto 25px auto;
+    background-color: #eee;
+    text-align: center;
+    padding:0.8rem 1.2rem;
+    border-radius: 20px;
+    
+}
+
+.blogcon a{
+     text-decoration: none;
+     font-size: 1.2rem;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     padding:0.4rem 0.8rem;
+     transition: all 0.3s ease-in;
+}
+.blogcon a:hover{
+    color:red;
+    text-decoration: underline;
+}
+
+
+
+
+
+@media(max-width:600px){
+    .blogcon{
+        width:100%;
+    }
+}
