@@ -41,7 +41,7 @@ if(!isset($_GET['id'])){
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Post <?php echo $data['id']?></title>
     <script src="js/jquery.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
@@ -55,7 +55,7 @@ if(!isset($_GET['id'])){
 
                     </p>
                          
-                   <small >Posted by <?php echo $data['username']?>   <?php echo $data['created_at']?> </small>
+                   <small >Posted by <b><?php echo $data['username']?></b>   <?php echo $data['created_at']?> </small>
                    <br>
                  <small><?php echo $data['views'] > 0 ? $views : "" ?></small>
 </br>                         

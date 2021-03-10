@@ -8,7 +8,7 @@
 
        function FetchAll(){
 
-               $sql = "SELECT * FROM posts";
+               $sql = "SELECT * FROM posts ORDER BY created_at DESC";
 
 
                $stmt = $GLOBALS['pdo']->prepare($sql);
